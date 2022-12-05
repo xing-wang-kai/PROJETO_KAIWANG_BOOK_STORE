@@ -7,16 +7,16 @@ O curso foi realizado com base nas aula técnicas da escala de programadores ALU
 
 O designer do rpojeto foi construido com estratégia Mobile first, onde o primeiro layout da página foi pensando no acesso por dispositivos moveis.
 
-![git mobile first]("./resources/gif/mobilegif.gif")
+![git mobile first](./resources/gif/mobilegif.gif)
 
 ## Designer para tablets
 
 Neste designer foi pensando na responsibilidade para telas com no até no mínimo de 1024px;
 
-![gif table screen]("./resources/gif/tabletgif.gif")
+![gif table screen](./resources/gif/tabletgif.gif)
 
 ## Designer para DeskTop
 
 Designer para computador e notbook respeitando o layout minimo de 1728px;
 
-![gif table screen]("./resources/gif/desktopgit.gif")
+![gif table screen](./resources/gif/desktopgit.gif)
