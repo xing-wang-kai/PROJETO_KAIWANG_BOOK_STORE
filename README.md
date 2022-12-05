@@ -13,7 +13,7 @@ O designer do rpojeto foi construido com estratégia Mobile first, onde o primei
 
 Neste designer foi pensando na responsibilidade para telas com no até no mínimo de 1024px;
 
-![gif table screen](./resources/gif/tabletgif.gif)
+![gif table screen](./resources/gif/tabletgit.gif)
 
 ## Designer para DeskTop
 
