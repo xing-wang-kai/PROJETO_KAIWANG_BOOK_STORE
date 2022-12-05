@@ -20,3 +20,5 @@ Neste designer foi pensando na responsibilidade para telas com no até no mínim
 Designer para computador e notbook respeitando o layout minimo de 1728px;
 
 ![gif table screen](./resources/gif/desktopgit.gif)
+
+[Acesse!](https://projeto-kaiwang-book-store.vercel.app/)
