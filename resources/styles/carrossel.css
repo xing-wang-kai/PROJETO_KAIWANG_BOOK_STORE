@@ -1,0 +1,141 @@
+.carrossel__titulo{
+    color: var(--detail_orange);
+    background: var(--white);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 1em 0 0.5em 0;
+    font-weight: 700;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+.swiper-slide img{
+width: 100%;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination{
+    position: initial;
+    margin: 1em 0;
+}
+
+.card__descricao{
+    display: grid;
+    grid-template-areas: 
+        "descricao img";
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5em;
+}
+.descricao{
+    grid-area: descricao;
+}
+
+.descricao__img{
+    grid-area: img;
+}
+.descricao__titulo{
+    color: var(--detail_orange);
+    font-weight: 700;
+}
+.descricao__titulo-livro{
+    color: var(--detail_blue);
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0.5em 0;
+}
+
+.descricao__texto{
+    font-size: 14px;
+}
+.card__botao{
+    display: grid;
+    grid-template-areas: 
+        "botoes ancora";
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botoes{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-area: botoes;
+   gap: 1em;
+}
+.ancora{
+    grid-area: ancora;
+}
+
+.card{
+    background: var(--white);
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1em;
+}
+
+.botoes__ancora{
+    background: var(--detail_orange);
+    color: var(--white);
+    padding: 0.8em 1.8em;
+    font-weitht: 700;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 1024px)
+{
+    .carrossel__titulo{
+        font-size: 26px;
+    }
+    .swiper-pagination{
+        margin: 2em 0 3em 0;
+    }
+    .swiper{
+        width: 60%;
+    }
+    .swiper-button-prev, .swiper-button-next{
+        display: block;
+        top: 60%;
+    }
+    .card{
+        width: 40%;
+        margin: 2.3em auto;
+    }
+
+}
+
+@media screen and (min-width: 1728px)
+{
+    .carrossel__container{
+        display: flex;
+        margin: 0 20vw 3em 20vw;
+        align-items: center;
+    }
+    .descricao{
+        margin-right: 2em;
+    }
+    .descricao__titulo{
+        font-size: 32px;
+    }
+    .descricao__texto{
+        font-size: 16px;
+    }
+    .swiper-pagination{
+        margin: 1em 0;
+    }
+    .swiper{
+        width: 50%;
+    }
+    .card{
+        width: 60%;
+        margin-left: 3em;
+    }
+
+}
